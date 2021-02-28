@@ -1,0 +1,69 @@
+
+nav{
+    background-color:#8f2d56;
+    height: 100px;
+    text-align: center;
+    padding: 25px 10px 10px 12px;
+}
+
+nav:hover{
+    background-color: yellowgreen;
+}
+
+body{
+    background-color: #2a9d8f;
+}
+  
+h1{
+    font-size: 32px;
+}
+
+h2{
+    margin: 20px;
+    font-size: 26px;
+}
+#headsec{
+    background-color: #e63946;
+    margin-left: 45px;
+    height: 60px; 
+    width: 70pc;
+    border: 4px solid black;
+    position: sticky;
+    top: 50px; /* position nd top eksaath*/
+    /*margin-top: 25px;*/ /*same as main*/
+}
+
+#A-Z{
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+}
+#numbers{
+    border: 2px solid black;
+    margin: 12px;
+}
+
+main{
+    margin: 55px 20px 10px 20px;
+}
+
+li:hover{
+    background-color: #007200;
+    border: 1px solid gold;
+    font-size:x-large;
+
+}
+
+li{
+    color: 6px solid #0a2472;
+    font-size: 14pt;
+}
+
+footer{
+    background-color: plum;
+    height: 55px;   
+    padding: 2px;
+}
+footer>h3{
+    font-size: 22px;
+    text-align: center;
+}
