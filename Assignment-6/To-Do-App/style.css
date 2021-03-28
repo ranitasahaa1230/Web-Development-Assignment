@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    background: #f12711; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #f5af19,
+      #c0f111
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #19f52b,
+      #f12711
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  input {
+    height: 30px;
+    width: 20vw;
+    border-radius: 20px;
+  }
+  input[type="text"] {
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  button {
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  section {
+    height: 100vh;
+    width: 40vw;
+    margin: 50px auto;
+    cursor: pointer;
+  }
+  
+  li {
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: xx;
+    border-radius: 20px;
+    width: 20vw;
+  }
+  li button {
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  li:nth-last-of-type(even) {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+  }
+  li:nth-last-of-type(odd) {
+    background-color: palevioletred;
+    color: black;
+    padding: 15px;
+  }
+  
+  @media only screen and (max-width: 400px) {
+  
+    section{
+        border:2px solid black;
+        margin: 50px auto;
+        cursor: pointer;
+        width: 90vw;
+        margin-top: 1px;
+    }
+    input {
+      height: 40px;
+      width: 90vw;
+      border-radius: 20px;
+    }
+    input[type="text"] {  
+      width: 90vw;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      font-size: 1rem;
+    }
+          /* Addtodo Button  */
+  
+    #btn{
+      width: 70px;
+      height: 30px;
+      padding: 5px;
+      margin-left: 38%;
+    }
+  
+    /* li CSS */
+  
+    li {
+      margin-top: 10px;
+      list-style-type: none;
+      font-size: large;
+      border-radius: 20px;
+      width: 82vw;
+      margin-left: 1px;
+    }
+    li button {
+      width: 60px;
+      height: 30px;
+      padding: 2px;
+      margin-left: 15px;
+    }
+    li:nth-last-of-type(even) {
+      background-color: black;
+      color: white;
+      padding: 12px;
+    }
+    li:nth-last-of-type(odd) {
+      background-color: white;
+      color: black;
+      padding: 12px;
+    }
+  }
+  
