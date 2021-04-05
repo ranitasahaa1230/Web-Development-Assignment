@@ -15,11 +15,9 @@ const h4 = document.querySelector('h4');
 const img = document.querySelector('img');
 const p = document.querySelector('p');
 
-// Adding event listners to button
-
 btn.addEventListener('click', ajaxFun);
 
-// Adding event listners for enter key
+// for enter key
 
 input.addEventListener('keypress',function (e) {
     if (e.keyCode === 13) {
@@ -58,15 +56,4 @@ function currentDate() {
     return `${week[WeekDay.getDay()]}/ ${day}  ${month[WeekDay.getMonth()]} / ${WeekDay.getFullYear()}`;
 }
 
-            
-    // fetch(`api.openweathermap.org/data/2.5/weather?q=${city name} &appid={687323c4b6d49653323ab7e2574d10f4}`) //fetch returns a promise
-
-//     .then(data => {
-//         // console.log(data);//wont wait for all the datas
-//         return data.json();//.json is a method will wait for all datas implicitly and all data will be parsed, returns a promise
-//     })
-//     .then(parsedData => {
-//         console.log(parsedData); //will get all d datas inside parsedData
-//     })
-//     .catch(err => alert("Wrong City Name!!"))
-// })
+         
