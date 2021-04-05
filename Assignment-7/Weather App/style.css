@@ -22,16 +22,10 @@
     width: 35%;
   border: 3px solid orangered;
   background-color: black;
-      /* background-image: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0.6)
-        ); */
-        height: 70vh;
+ height: 70vh;
     text-align: center;
   
   }
-  /* css for inputbox*/
   input {
     margin: 12px auto;
     width: 95%;
@@ -42,7 +36,6 @@
     font-size: large;
   
   }
-  /* css for button*/
   
   button {
       background: #246896;
@@ -74,7 +67,6 @@
       background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
       text-decoration: none;
     }
-  /* css for Text tags*/
   
   #data{
       width: 100%;
@@ -91,7 +83,6 @@
   h2{
       margin-bottom: 5px;
   }
-  /* css for media query*/
   @media only screen and (max-width: 600px) {
       section{
           width: 90%;
